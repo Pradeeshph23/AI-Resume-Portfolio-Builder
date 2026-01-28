@@ -1,6 +1,5 @@
 import os
 import openai
-import streamlit as st
 from fpdf import FPDF
 from PyPDF2 import PdfReader
 from datetime import datetime
@@ -8,7 +7,7 @@ from dotenv import load_dotenv
 
 # Load environment variables from .env file
 load_dotenv(dotenv_path='../.env')
-openai.api_key = st.secrets['OPENAI_API_KEY']
+openai.api_key = os.getenv('OPENAI_API_KEY')
 
 # Function to Extract Text from PDF
 def ExtractPDF(file):
@@ -50,4 +49,3 @@ def CreatePDF(text, input_filename):
     file_name = f"{input_filename}_Optimized_{timestamp}.pdf"
     pdf.output(file_name, 'F')
     return file_name if os.path.exists(file_name) else None
-
