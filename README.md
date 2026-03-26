@@ -1,7 +1,3 @@
-Got it—you want a **clean GitHub-style README using proper `#` headings** (no extras). Here’s a polished version 👇
-
----
-
 # 🚀 AI Resume & Portfolio Builder
 
 An AI-powered web application to **create, analyze, and optimize resumes and portfolio content** using advanced language models.
