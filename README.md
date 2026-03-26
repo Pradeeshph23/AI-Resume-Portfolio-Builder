@@ -107,6 +107,10 @@ Open in browser:
 [http://localhost:8501](http://localhost:8501)
 
 ---
+# ScreenShot
+
+<img width="1907" height="979" alt="image" src="https://github.com/user-attachments/assets/fb74ff17-ca5d-4fa1-8bc0-4eeb1b129bb8" />
+
 
 # 🧠 How It Works
 
